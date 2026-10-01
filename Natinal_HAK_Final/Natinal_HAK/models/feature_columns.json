@@ -1,0 +1,17 @@
+[
+    "gender",
+    "department",
+    "scholarship",
+    "parental_education",
+    "extra_curricular",
+    "age",
+    "cgpa",
+    "attendance_rate",
+    "family_income",
+    "past_failures",
+    "study_hours_per_week",
+    "assignments_submitted",
+    "projects_completed",
+    "total_activities",
+    "sports_participation"
+]

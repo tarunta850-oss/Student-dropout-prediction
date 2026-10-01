@@ -1,0 +1,217 @@
+{
+    "best_model": "Gradient Boosting",
+    "best_accuracy": 73.23,
+    "benchmark_metrics": {
+        "Random Forest": {
+            "accuracy": 71.83,
+            "precision": 50.06,
+            "recall": 38.46,
+            "f1_score": 43.5,
+            "roc_auc": 71.86,
+            "confusion_matrix": [
+                [
+                    2390,
+                    424
+                ],
+                [
+                    680,
+                    425
+                ]
+            ]
+        },
+        "XGBoost": {
+            "accuracy": 70.02,
+            "precision": 47.15,
+            "recall": 52.4,
+            "f1_score": 49.64,
+            "roc_auc": 70.95,
+            "confusion_matrix": [
+                [
+                    2165,
+                    649
+                ],
+                [
+                    526,
+                    579
+                ]
+            ]
+        },
+        "Gradient Boosting": {
+            "accuracy": 73.23,
+            "precision": 55.26,
+            "recall": 26.61,
+            "f1_score": 35.92,
+            "roc_auc": 71.65,
+            "confusion_matrix": [
+                [
+                    2576,
+                    238
+                ],
+                [
+                    811,
+                    294
+                ]
+            ]
+        },
+        "Logistic Regression": {
+            "accuracy": 66.11,
+            "precision": 43.54,
+            "recall": 68.05,
+            "f1_score": 53.11,
+            "roc_auc": 73.04,
+            "confusion_matrix": [
+                [
+                    1839,
+                    975
+                ],
+                [
+                    353,
+                    752
+                ]
+            ]
+        },
+        "Ensemble (Voting)": {
+            "accuracy": 71.17,
+            "precision": 48.73,
+            "recall": 43.53,
+            "f1_score": 45.98,
+            "roc_auc": 72.1,
+            "confusion_matrix": [
+                [
+                    2308,
+                    506
+                ],
+                [
+                    624,
+                    481
+                ]
+            ]
+        }
+    },
+    "feature_importances": {
+        "random_forest": {
+            "gender": 0.0229,
+            "department": 0.0426,
+            "scholarship": 0.0141,
+            "parental_education": 0.0261,
+            "extra_curricular": 0.0141,
+            "age": 0.0566,
+            "cgpa": 0.1579,
+            "attendance_rate": 0.1774,
+            "family_income": 0.1017,
+            "past_failures": 0.1062,
+            "study_hours_per_week": 0.0944,
+            "assignments_submitted": 0.0835,
+            "projects_completed": 0.0375,
+            "total_activities": 0.0517,
+            "sports_participation": 0.0133
+        },
+        "xgboost": {
+            "gender": 0.0477,
+            "department": 0.0506,
+            "scholarship": 0.0456,
+            "parental_education": 0.047,
+            "extra_curricular": 0.0478,
+            "age": 0.0494,
+            "cgpa": 0.0843,
+            "attendance_rate": 0.0973,
+            "family_income": 0.0527,
+            "past_failures": 0.2109,
+            "study_hours_per_week": 0.052,
+            "assignments_submitted": 0.0492,
+            "projects_completed": 0.0474,
+            "total_activities": 0.0482,
+            "sports_participation": 0.0697
+        },
+        "sorted_features": [
+            [
+                "past_failures",
+                0.2109
+            ],
+            [
+                "attendance_rate",
+                0.0973
+            ],
+            [
+                "cgpa",
+                0.0843
+            ],
+            [
+                "sports_participation",
+                0.0697
+            ],
+            [
+                "family_income",
+                0.0527
+            ],
+            [
+                "study_hours_per_week",
+                0.052
+            ],
+            [
+                "department",
+                0.0506
+            ],
+            [
+                "age",
+                0.0494
+            ],
+            [
+                "assignments_submitted",
+                0.0492
+            ],
+            [
+                "total_activities",
+                0.0482
+            ],
+            [
+                "extra_curricular",
+                0.0478
+            ],
+            [
+                "gender",
+                0.0477
+            ],
+            [
+                "projects_completed",
+                0.0474
+            ],
+            [
+                "parental_education",
+                0.047
+            ],
+            [
+                "scholarship",
+                0.0456
+            ]
+        ]
+    },
+    "feature_columns": [
+        "gender",
+        "department",
+        "scholarship",
+        "parental_education",
+        "extra_curricular",
+        "age",
+        "cgpa",
+        "attendance_rate",
+        "family_income",
+        "past_failures",
+        "study_hours_per_week",
+        "assignments_submitted",
+        "projects_completed",
+        "total_activities",
+        "sports_participation"
+    ],
+    "categorical_columns": [
+        "gender",
+        "department",
+        "scholarship",
+        "parental_education",
+        "extra_curricular",
+        "sports_participation"
+    ],
+    "total_training_records": 19591,
+    "dropout_count": 5525,
+    "dropout_rate": 28.2
+}

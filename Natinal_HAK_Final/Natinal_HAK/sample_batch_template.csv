@@ -1,0 +1,6 @@
+student_id,email,gender,department,scholarship,parental_education,extra_curricular,age,cgpa,attendance_rate,family_income,past_failures,study_hours_per_week,assignments_submitted,projects_completed,total_activities,sports_participation
+205978,aarav.205978@college.edu,Female,BIO,Yes,Graduate,Yes,23,5.50105511448317,64.1658171638089,42981,2,23.2,42,4,1,No
+204732,ananya.204732@college.edu,Male,BIO,No,Postgraduate,Yes,24,6.0094063787539,95.5486838719617,21124,6,5.9,15,0,7,No
+214260,rahul.214260@college.edu,Male,ME,No,Graduate,No,25,6.17213726538864,94.3515743699101,33785,5,18.2,11,1,9,Yes
+205045,sneha.205045@college.edu,Male,CIVIL,Yes,Postgraduate,No,16,5.73889472599104,87.9825151531682,52863,3,21.7,38,3,8,No
+217562,vikram.217562@college.edu,Male,COMMERCE,Yes,Graduate,Yes,18,5.9622832052787,87.6340752244888,12071,3,19.4,24,4,4,Yes
